@@ -1,0 +1,12 @@
+== Introduction
+This guide provides step-by-step instruction on how to use asciidoc using Visual Studio Code.
+
+To render your document in HTML or PDF format using windows, it is essential that you follow these steps:
+
+* Install Asciidoctor
+* Install Visual Studio Code
+* Add Asciidoctor extension in Visual Studio Code
+* Include Images and create TOC
+* Generate HTML and PDF 
+
+

@@ -1,0 +1,25 @@
+== Installing Asciidoctor
+Asciidoctor is an open source text processor and publishing tool for converting  Asciidoc content to HTML and PDF format. To simplify installation, Asciidoctor is packaged and distributed as a gem to RubyGems.org. 
+
+
+Follow these steps to install Ruby:
+
+. Go to https://rubyinstaller.org/ and click *Download*.
+. Download the latest version.
+
+. Read the license agreement and accept.
++
+image::..\Images\License_Agreement.png[License Agreement]
+
+. The installer displays the following dialog box:
++
+image::..\Images\Complete_Ruby_Installation.png[Ruby Installation]
+
+
+. De-select the *Run 'ridk install' to setup MSYS2 and development toolchain* and then click *Finish*.
+
+. To check the installed version of ruby and gem, open the window terminal and type 
+    ** ruby --version
+    ** gem --version
++
+image::..\Images\Ruby_&_Gem_Version.png[Ruby_&_Gem_Version]  

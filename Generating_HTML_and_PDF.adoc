@@ -1,0 +1,17 @@
+== Generating HTML and PDF document
+
+. Open the window terminal and type the command to install asciidoctor and pdf folder:
+
+    gem install asciidoctor
+    gem install asciidoctor-pdf --pre
++
+image::..\Images\Gem_install_asciidoctor.png[Gem_install_asciidoctor]
+
+. Type the below command to generate html and pdf
+
+    ascidoctor *.adoc
+    .\[filename].html
+    : asciidoctor -r asciidoctor-pdf -b pdf [name].adoc
+
+
+
