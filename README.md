@@ -38,6 +38,7 @@ Make sure below points while calling the End Point:
 * Call the service with **Get** method.
 * Header
     * Authorization or Authentication – **No Auth**
+ ![Sample Request](SampleRequest.png)
 ## Sample Response
 ![Sample Response](SampleReponse.png)
 ```
