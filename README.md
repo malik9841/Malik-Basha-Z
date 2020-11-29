@@ -39,6 +39,7 @@ Make sure below points while calling the End Point:
 * Header
     * Authorization or Authentication – **No Auth**
 ## Sample Response
+![Sample Response](SampleReponse.png)
 ```
 [
     {
