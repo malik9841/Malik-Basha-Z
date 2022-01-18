@@ -1,0 +1,160 @@
+= ABC Pvt. Ltd., Network Infrastructure Upgradation
+== Malik Basha Z
+
+Copyright (C) 2008 {author}. +
+
+=== Table of Contents
+. Introduction
+. Scope
+. Comparison Between the Traditional and Upgraded Infrastructure with SDN and NFV
+. Similarities Between SDN and NFV
+. Business Benefits of SDN and NFV
+. Challenges related to SDN and NFV
+
+= Introduction
+
+*Software-Defined Networking (SDN)*
+
+Software-Defined Networking (SDN) is an emerging architecture that is dynamic, manageable, cost-effective, and adaptable, making it ideal for the high-bandwidth, dynamic nature of today’s applications. This architecture decouples the network control and forwarding functions enabling the network control to become directly programmable and the underlying infrastructure to be abstracted for applications and network services. The OpenFlow® protocol is a foundational element for building SDN solutions. For an in-depth understanding of SDN-based networking and use cases, check out the open-source micro-book, “Software-Defined Networks: A Systems Approach”.
+
+*Network Functions Virtualization (NFV)*
+
+Network Functions Virtualization (NFV) is a network architecture philosophy that utilizes virtualization technologies to manage core networking functions via software as opposed to having to rely on hardware to handle these functions. The NFV concept is based on building blocks of virtualized network functions, or VNFs, that can be combined to create full-scale networking communication services.
+
+In Network Functions Virtualization, virtualized network functions handle specific network functions that run in one or more virtual machines on top of the hardware networking infrastructure (both wired and wireless) such as routers, switches, servers, or cloud computing systems.
+
+Examples of the types of networking functions that can be managed by NFV include network security and firewalls, network address translation (NAT), domain name services (DNS), caching, intrusion detection and more.
+
+
+== Scope
+In this document you will have the complete information on what is SDN and NFV technology along with the following:
+
+* Volume of work
+* Volume of effort
+* Quality of Output
+* Cost of Effort
+
+The above-mentioned parameters are described in detail in the following sections:
+
+- Comparison Between the Traditional and Upgraded Infrastructure with SDN and NFV
+- Similarities Between SDN and NFV
+- Business Benefits of SDN and NFV
+- Challenges related to SDN and NFV
+
+= Comparison Between the Traditional and Upgraded Infrastructure with SDN and NFV
+
+As data center administrators look for technologies that simplify network functions while offering lower costs, greater scalability, and improvements in network agility, two approaches are being embraced in the networking world: Software Defined Networking (SDN) and Network Functions Virtualization (NFV). While both offer new and different ways to design, implement and manage the network and its services, both have the capacity to significantly enhance network performance.    
+
+To address larger quantities of data being transmitted, stored, and managed on high volume servers, switches, storage technology and in cloud computing environments, SDN and NFV are increasingly becoming attractive options to integrators and value-added resellers (VARs) who need to identify strategies that compliment virtualization and network programmability.
+
+There are several reasons for the growth of SDN and NFV. The drivers of these technologies include the growth of big data, mobile devices, and the expansion of distributed databases and servers located at different sites and connected over long distances through public and private clouds that require robust data management systems and access to bandwidth on demand.   
+
+According to a study from Infonetics Research the global carrier SDN and NFV hardware and software market will grow from less than $500 million in 2013 to over $11 billion in 2018.
+
+As VARs embark on a plan to implement SDN and NFV, however, they should appreciate the differences between these two networking approaches and recognize the ways in which both can help network administrators elevate their management capabilities.
+
+Both SDN and NFV rely on software that operates on commodity servers and switches, but both technologies operate at different levels of the network.   
+
+SDN is designed to offer users a way to managed network services through software that makes networks centrally programmable, which allows for faster configuration. Essentially, SDN makes the network programmable by separating the system that decides where traffic is sent (the control plane) from the underlying system that pushes packets of data to specific destinations (the data plane). As network administrators and VARs know, SDN is built on switches that can be programmed through an SDN controller utilizing an industry standard controller like OpenFlow.
+
+By contrast, NFV separates network functions from routers, firewalls, load balancers and other dedicated hardware devices and allows network services to be hosted on virtual machines. Virtual machines have a hypervisor, also called a virtual machine manager, which allows multiple operating systems to share a single hardware processor. When the hypervisor controls network functions those services that required dedicated hardware can be performed on standard x86 servers.
+
+As systems integrators and VARs work with network administrators to deploy these technologies, it’s important to look at the differences between each.  Here are five key differences to keep in mind:
+
+. The Basic Idea:
+- SDN separates control and data and centralizes control and programmability of the network.
+- NFV transfers network functions from dedicated appliances to generic servers.
+
+. Areas of Operation SDN operates in a campus, data center and/or cloud environment NFV targets the service provider network.
+
+. Initial Application Target. SDN software targets cloud orchestration and networking NFV software targets routers, firewalls, gateways, WAN, CDN, accelerators and SLA assurance.
+
+. Protocols 
+- SDN – OpenFlow
+- NFV – None
+
+. Supporting organization
+- SDN: Open Networking Foundation (ONF)
+- NFV: ETSI NFV Working Group
+
+For resellers and systems integrators working on projects that implement NFV into the network, they should consider that because NFV can add server capacity through software rather than purchasing more dedicated hardware devices to build network services, network administrators can deliver to the data center cost reductions in capital and operating expenses.
+
+Integrators should also consider that they are adding value when they help network managers configure, manage, secure, and optimize network resources through SDN programs, which network managers can write on their own because these programs don’t depend on proprietary software.
+
+As VARs and integrators convey the benefits of SDN and NFV, they’ll find an abundance of ways to play an integral role in assisting network administrators, and the companies they work for, to save money while building a network that’s easier to manage, faster to configure and smarter at tackling the growing data challenges of our time.
+
+= Similarities Between SDN and NFV
+
+In many ways, SDN and NFV are interdependent, but when deployed together can achieve flexible, agile network infrastructures. NFV provides the basic networking functions and SDN assumes higher-level management responsibility to orchestrate overall network operations.
+
+.Similarities Between SDN and NFV
+[options="header,footer"]
+|=======================
+||SDN      |NFV
+|*Deployment*    |Running on virtual machines, hypervisors, network controllers, load balancers and gateways are deployed and configured to provide the needed network infrastructure controls.     |A wide range of virtualized network functions such as routers, firewalls and SD-WAN are deployed as software on top of virtualized infrastructure.
+|*Management*    |Centralized control console to monitor throughput, routing and policy definitions.     |Virtual network functions are centrally managed and monitored regardless of where they are located across the network.
+|*Costs* |The primary cost savings come from the reduction of operational expenses through the automation of network configuration, adds and changes. Personnel costs account for much of the overall spend, so a small reduction in operational costs can lead to a significant cost-benefit. Easily adjust network-wide traffic flow in anticipation of, or in response to, changing business needs. | Running on high-performance servers in data centers, VNFs eliminate the need to procure specialized network hardware for each individual network function.  This allows for less space, power, cooling and equipment to be deployed.
+|*Flexibility*    |	Programmable interfaces enable provisioning of new network devices, reconfiguration of existing devices via scripting and/or management consoles.     |Quickly deploy and decommission functions to support proof-of-concept trials. Locate functions at the network edge, close to data, applications and users to optimize network security and performance.
+|    ||
+|=======================
+
+
+= Business Benefits of SDN and NFV
+
+SDN and NFV technologies make it possible for enterprises to access network capacity on demand via a self-service portal. In addition, routing and security policies can automatically adapt to address real-time congestion, security threats or network outages.
+
+Below are five business benefits enterprises can enjoy with SDN and NFV:
+
+- *Increase business agility*
+
+The flexibility of SDN makes it far easier and faster to roll out new innovative services, such as real-time HD video conferencing and cloud applications, while still delivering a consistently high-quality end user experience. Lead times of months to deliver fixed function equipment is reduced to minutes. It’s simply a matter of spinning up a new virtualized service on a network pop or general-purpose CPE. Developers can isolate and run new application workloads without risk as virtual tenants in a live network – speeding up problem solving and deployment times. This significantly improves business agility.
+
+- *Improve network visibility, performance, and management control*
+
+SDN brings the benefits of network-wide visibility, analytics, and control through a simple dashboard. A centralized controller determines the best route for each application traffic flow. It assesses real-time congestion levels, link health, priority of workload to the business and the quality of service required. The ability to easily route traffic via multiple paths through a network increases redundancy. This is important as the cost of IT downtime ranges from $1 million a year for a medium size company to $60 million per year for large enterprises according to a report from IHS.
+
+Intelligence at the core and edge of the network can be used to execute some tasks that are prone to latency faster, for example traffic acceleration. This helps to ensure cloud applications are responsive and easy to use, helping to increase employee productivity and deliver a great customer experience while minimizing network costs.
+
+- *Enhance security*
+
+Security is one of the key attractions of SDN for 45 percent of enterprises surveyed by the publishers of week. The centralized SDN controller in the core network has visibility over end-to-end traffic flows and emerging threats. It can push global security policies updates out centrally to every site, while a virtualized switch can filter packets at the network edge and redirect suspicious traffic to higher layer security controls. Role-based access to data, applications over a diversity of transport links with varying levels of security is also easier using an end-to-end SDN controller.
+
+This multi-layered approach to network security, along with granular insights into traffic and the ability to react in real time simply can’t be matched by fixed hard-wired networks with rigid security policies.
+
+- *Eliminate vendor lock-in*
+
+Open platforms are key in eliminating vendor lock-in and driving growth in SDN. According to Transparency Market Research the SDN market is set to surge to US$3.52 billion by 2018. The Open Daylight platform, which is leading the transformation to open SDN, now accounts for 95 percent of the entire SDN market. This enables enterprises to use multivendor solutions to benefit healthy price competition and faster innovation. Orange is investing heavily in an open framework that enables customers to pick and choose the ‘best in breed’ features for their networks, be it firewalls, network acceleration, load balancing or traffic visibility.
+
+- *Reduce costs*
+
+SDN pools multiple compute, storage and processing functions onto low-cost commodity servers to reduce capital expenditure. At the same time, virtualization enables a lot of manual network configuration and management tasks to be automated, reducing operating costs. This eliminates the need to physically visit switches and branch office sites. According to Gartner, enterprises can see a 90 percent reduction in time for provisioning network services.
+
+= Challenges related to SDN and NFV
+
+In a recent survey conducted by European Communications on behalf of Netcracker, representatives from more than 50 service providers around the globe ranked the primary factors inhibiting them from deploying SDN and NFV. The results showed the top challenges slowing SDN and NFV deployment included the lack of unified, vendor-agnostic, hybrid orchestration; the lack of strong business cases; and the lack of capabilities needed to operationalize SDN/NFV. Respondents also identified complexities associated with integrating third-party VNFs, organizational issues and the lack of cohesive industry standards as major obstacles. Fortunately, though, most of these inhibitors are transitional issues that service providers can address.
+
+image:https://www.netcracker.com/assets/uploads/Insights/Insights_Inhibitors-to-NFV-chart.jpg[alt="not bad.",width=600,height=400]
+
+
+- *Hybrid Orchestration and VNF Integration Challenges*
+
+While NFV is touted as being built on industry-standard hardware and software, service providers sometimes still face vendor lock-in due to vendor- or domain-specific products. As such, more than 90 percent of survey respondents said that hybrid, vendor-agnostic orchestration is very important or critical to deploying SDN and NFV and enabling end-to-end services to run over multivendor, hybrid networks comprised of physical and virtual components. The market is also calling for greater preparedness among partners to deliver market-ready, VNF-based service packages that prevent VNF vendor lock-in and enable service providers to bring new services to market quickly.
+
+- *Lack of Strong Business Cases*
+
+Defining strong business cases for virtualization continues to be a challenge for some service providers. This is not necessarily a surprise, given that cost reduction is not frequently the main driver behind virtualization. Instead, our study revealed that reducing time-to-market, optimizing networks, and developing new services were the main drivers for the emerging technology. But these benefits can be difficult to quantify, hence making business cases based on them a bit more difficult to define. These holistic and conceptual drivers often require service providers to get investment approval from executives at the highest level, often including buy-in from the board.
+
+- *Lack of Capabilities Needed to Operationalize SDN/NFV*
+Given that SDN and NFV are in their earliest stages of use, it should come as no surprise that most service providers have not yet transformed their operations to support the new technologies. Contributing to this obstacle is the availability—or lack thereof—of vendor solutions as well as the slowed adoption of technologies that enable service providers to embrace the capabilities needed to operationalize SDN/NFV. Keep in mind that moving to SDN and NFV shifts service providers’ networks from hardware-centric, semi-static connectivity platforms to software-driven, dynamic service platforms. This is a transformative event and will remain an inhibitor until service providers begin to make that shift.
+
+- *Organizational Issues*
+
+Encouragingly, organizational issues were not among the top inhibitors in the survey; but respondents did note that the “lack of a governance model that fosters collaboration between network and IT as a challenge. As the industry becomes more software-oriented, network and IT organizational functions must synchronize continuously or merge together. Although this goes against how most service providers are currently organized, the merging of network and IT functions it is now widely accepted as vital.
+
+- *Lack of Industry Standards*
+
+Though standards were cited as a lesser inhibitor in our survey, standards are often identified as general inhibitors of innovation. In many cases, standards work to catch up to innovation, as is easily pointed to in the case of 5G’s gradual development. Standards bodies are working to streamline their processes, but they are often unable to keep up with the industry’s aggressive pace. This dynamic is putting pressure on service providers and their strategic partners to invest in and deliver multivendor, end-to-end solutions that can automatically adapt to standards over time.
+
+The good news is that none of these inhibitors is a roadblock for virtualization; they are merely potholes that can be avoided with the proper approach. Although many of the challenges identified in our survey are seen as inhibitors today, they will likely shake out as SDN and NFV roll into large-scale production.
+
+
