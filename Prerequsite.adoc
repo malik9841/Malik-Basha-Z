@@ -4,5 +4,5 @@
  * Asciidoctor for HTML preview and for generating PDF.
  * PDF Generator tool
  * Knowledge of Git. Refer to  https://git-scm.com/download/ for  downloading and installing git
- * Basic skill with window terminal
+ * Basic skill with window terminal 
  * Visual Studio Code. Refer to  https://code.visualstudio.com/Download for downloading and installing git. 
