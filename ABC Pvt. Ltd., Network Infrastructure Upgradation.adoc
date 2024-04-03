@@ -29,7 +29,7 @@ Examples of the types of networking functions that can be managed by NFV include
 == Scope
 In this document you will have the complete information on what is SDN and NFV technology along with the following:
 
-* Volume of work
+* Volume of work 
 * Volume of effort
 * Quality of Output
 * Cost of Effort
