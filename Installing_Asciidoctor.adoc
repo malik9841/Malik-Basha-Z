@@ -5,7 +5,7 @@ We can edit and save. New Change.
 
 Follow these steps to install Ruby:
 
-. Go to https://rubyinstaller.org/ and click *Download*.
+. Go to https://rubyinstaller.org/ and click *Download*. 
 . Download the latest version.
 
 . Read the license agreement and accept.
