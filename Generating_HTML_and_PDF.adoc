@@ -1,6 +1,6 @@
 == Generating HTML and PDF document
 
-Edited for GiHub training on 19th October, 2019.
+Edited for GiHub training on 2024.
 
 . Open the window terminal and type the command to install asciidoctor and pdf folder:
 
