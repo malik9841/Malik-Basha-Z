@@ -7,7 +7,7 @@ Edited for GiHub training on 19th October, 2019.
     gem install asciidoctor
     gem install asciidoctor-pdf --pre
 +
-image::..\Images\Gem_install_asciidoctor.png[Gem_install_asciidoctor]
+image::..\Images\Gem_install_asciidoctor.png[Gem_install_asciidoctor] 
 
 . Type the below command to generate html and pdf
 
